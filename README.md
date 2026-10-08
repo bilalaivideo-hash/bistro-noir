@@ -1,43 +1,45 @@
-# Bistro Noir Lahore — website proposal concept
+# Bistro Noir Lahore — five-page website concept
 
-A responsive, build-free HTML/CSS/JavaScript concept prepared for the GitHub account `bilalaivideo-hash`.
+## Start here
 
-## View
+Extract the ZIP and open index.html in a browser. All five pages link to each other. No installation or build is needed.
 
-Open `index.html` in a browser. Photos are included locally. Optional Google Fonts require internet; Georgia and Arial are fallbacks. No installation, database, API key or build command is needed.
+## Pages
 
-## Included
+- index.html — Home: split photography cover, selected dishes and links into the site.
+- menu.html — Menu: 19 unique dish highlights, grouped into six categories with direct section links.
+- experience.html — The Experience: dining-room and food photography in an editorial layout.
+- private-dining.html — Private Dining: occasions, practical enquiry information and call contact.
+- visit.html — Visit & Reservations: address, directions, phone contact and expandable visitor questions.
+- credits.html — Photography sources and proposal status.
 
-- Editorial homepage with actual restaurant reference photography
-- Three working menu categories with twelve supplied menu highlights
-- Private dining section
-- Call-to-reserve and Google Maps links
-- Mobile navigation with Escape support and a fixed quick-action bar
-- Keyboard focus styles, image descriptions and reduced-motion support
-- Independent-concept label and search-engine noindex metadata
+## Upload to GitHub
 
-Reservation links open the phone dialler; no online booking is submitted or confirmed. This package does not include a booking backend, online payment, order delivery, analytics or collection of customer information.
+1. Create a repository under bilalaivideo-hash (suggested name: bistro-noir-lahore-concept).
+2. Choose Add file → Upload files.
+3. Upload the extracted files AND the assets folder. index.html must be at the repository root. Upload the contents, not the ZIP itself.
+4. Commit the files.
+5. To publish with GitHub Pages, open Settings → Pages → Deploy from a branch, choose main and /(root), then Save. Wait for GitHub to report a successful deployment.
 
-## GitHub upload
+If replacing the previous sample, replace index.html, styles.css, script.js and credits.html as well as uploading the new pages. Keep the assets folder alongside them. This package has not been uploaded or deployed by Codex.
 
-Suggested new repository: `bistro-noir-lahore-concept` under `bilalaivideo-hash`.
+Official Pages instructions: https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site
 
-Upload the CONTENTS of this folder so `index.html`, `styles.css`, `script.js`, `credits.html`, and the `assets` folder are at the repository root. A ZIP archive itself will not render as a website.
+## How it works
 
-For a public sample with approved imagery, enable GitHub Pages in repository Settings → Pages → Deploy from a branch → main → /(root), then Save. GitHub must finish deployment before the website link is usable. This README does not indicate that uploading or deployment has already happened. Reference: https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site
+The website is static HTML with shared styles.css and script.js. All content and page links work without JavaScript; JavaScript enhances compact mobile navigation. Image assets are local. Google Fonts are optional external resources, with Georgia and Arial fallbacks. There are no analytics, cookies, customer-data forms or API keys.
 
-## Final client details needed
+Reservation links open the phone dialler. The restaurant must confirm bookings. Google Maps links open the location search. Visitor questions use native HTML details/summary controls. The menu includes a print stylesheet.
 
-1. Original logo/brand files and any brand guidelines.
-2. Approved high-resolution interior, food and private-room photography.
-3. Current complete menu, prices, taxes and accurate dish descriptions.
-4. Confirmed opening hours for every day and holiday exceptions.
-5. Confirmed reservation contact and workflow: phone, WhatsApp or a booking provider.
-6. Official social accounts, address/map pin and contact email.
-7. Domain ownership, hosting preference and person who approves the final site.
+## Before the official launch
 
-## Content and photography
+- Replace the proposed typographic wordmark with the approved logo if required.
+- Obtain approved restaurant photography; permission for the included reference photos has not been established.
+- Confirm the current full menu, prices, dish descriptions and allergens.
+- Confirm all weekly/holiday hours, contact details and reservation process.
+- Add approved social accounts and domain details.
+- Remove proposal notices and noindex metadata only when an official launch is authorized.
 
-The business information and menu names came from the supplied brief. Review counts, live busyness and opening/closing claims are deliberately not treated as live data. Descriptive copy is proposed copy, not a verified statement of recipes or service promises. The image next to the menu illustrates the restaurant's food; it is not claimed to depict whichever dish is listed.
+The supplied listing named both “Italian Burger” and “The Italian Beef Burger”; this concept uses one entry, pending the official menu. Recipe descriptions, prices, hours, room capacity and packages have not been invented. No live reviews, table availability or booking confirmations are claimed. The photograph on the private dining page shows food at Bistro Noir, not the private room.
 
-Reference photographs were obtained on 8 October 2026. Public availability does not establish permission for commercial reuse. Obtain approved photos before public commercial use. See `credits.html` and `asset-sources.json` for source credits. The wordmark is a typographic concept, not an official logo file.
+See asset-sources.json and credits.html for image provenance. This is an independent design proposal, not the restaurant's official website.

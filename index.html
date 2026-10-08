@@ -1,48 +1,169 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="robots" content="noindex,nofollow">
-  <title>Bistro Noir Lahore — An evening worth savouring</title>
-  <meta name="description" content="An independent website concept for Bistro Noir Lahore. Explore menu highlights, the dining experience and contact information.">
-  <meta name="theme-color" content="#191a17">
-  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%23191a17'/%3E%3Ctext x='32' y='47' text-anchor='middle' font-family='Georgia' font-size='45' fill='%23d1b47b'%3EN%3C/text%3E%3C/svg%3E">
-  <link rel="stylesheet" href="styles.css">
-  <script defer src="script.js"></script>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<meta name="theme-color" content="#20251f">
+<title>Stay for the evening | Bistro Noir Lahore</title>
+<meta name="description" content="Explore Bistro Noir Lahore, menu highlights, private dining and reservations. An independent website concept.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%2320251f'/%3E%3Ctext x='32' y='47' text-anchor='middle' font-family='Georgia' font-size='45' fill='%23e9dfcb'%3EN%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="styles.css">
+<script src="script.js" defer>
+</script>
+<noscript>
+<style>.nav-toggle{display:none}@media(max-width:680px){.site-header{height:auto;flex-wrap:wrap;padding-block:20px}.site-header nav{position:static;display:flex;flex-wrap:wrap;flex-direction:row;padding:15px 0 0;box-shadow:none;border:0;width:100%;gap:8px 20px}.site-header nav a{padding:5px 0;font-size:14px}}</style>
+</noscript>
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
-<div class="concept">INDEPENDENT WEBSITE CONCEPT <span>·</span> PREPARED FOR BISTRO NOIR LAHORE</div>
-<header class="header">
-  <a class="wordmark" href="#home" aria-label="Bistro Noir home"><span>BISTRO</span>NOIR<small>LAHORE</small></a>
-  <button class="nav-toggle" aria-expanded="false" aria-controls="navigation">Menu <span aria-hidden="true">☰</span></button>
-  <nav id="navigation" aria-label="Main navigation"><a href="#experience">The experience</a><a href="#menu">Our menu</a><a href="#private">Private dining</a><a href="#visit">Find us</a></nav>
-  <a class="button outline header-book" href="tel:+923001888718">Reserve a table</a>
+<div class="proposal-strip">A WEBSITE CONCEPT FOR BISTRO NOIR LAHORE</div>
+<header class="site-header">
+<a class="brand" href="index.html" aria-label="Bistro Noir home">
+<span>BISTRO</span>
+<strong>NOIR</strong>
+<small>LAHORE</small>
+</a>
+<button class="nav-toggle" aria-controls="main-nav" aria-expanded="false">Menu <span aria-hidden="true">☰</span>
+</button>
+<nav id="main-nav" aria-label="Main navigation">
+<a href="index.html" aria-current="page">Home</a>
+<a href="menu.html">Menu</a>
+<a href="experience.html">The experience</a>
+<a href="private-dining.html">Private dining</a>
+<a href="visit.html">Visit us</a>
+</nav>
+<a class="button header-cta" href="visit.html">Reservations</a>
 </header>
 <main id="main">
-  <section class="hero" id="home" aria-labelledby="hero-title">
-    <img class="hero-photo" src="assets/interior.webp" width="1600" height="1067" alt="Bistro Noir dining room with sculptural gold ceiling details and a checkerboard floor" fetchpriority="high">
-    <div class="hero-shade"></div>
-    <div class="hero-content"><p class="eyebrow">FINE DINING · GULBERG, LAHORE</p><h1 id="hero-title">Some evenings<br>deserve <em>Noir.</em></h1><p>Good food. Unhurried conversations.<br>A table you'll want to return to.</p><div class="actions"><a class="button gold" href="#menu">Explore the menu</a><a class="text-link" href="tel:+923001888718">Call to reserve</a></div></div>
-    <div class="hero-bottom"><span>MM ALAM ROAD, LAHORE</span><a href="#experience">DISCOVER BISTRO NOIR</a><span>FOOD. COMPANY. OCCASION.</span></div>
-  </section>
-  <section class="intro section" id="experience">
-    <div><p class="eyebrow">THE NOIR EXPERIENCE</p><h2>A little escape.<br>A lasting <em>impression.</em></h2></div>
-    <div class="intro-copy"><p>Make room for a slower evening. From the first conversation to the last bite, Bistro Noir sets the scene for time well spent in the heart of Gulberg.</p><p>Come for a familiar favourite, explore something new, or simply settle in with good company.</p><a class="text-link dark-link" href="#visit">Plan your visit</a></div>
-  </section>
-  <section class="menu-section section" id="menu">
-    <div class="section-heading"><div><p class="eyebrow">AT THE TABLE</p><h2>Find your <em>favourite.</em></h2></div><p>From a comforting first course<br>to a memorable last bite.</p></div>
-    <div class="menu-layout"><figure class="menu-photo"><img src="assets/dish.jpeg" alt="A plated dish photographed at Bistro Noir" width="900" height="1100" loading="lazy"><figcaption>A taste of Bistro Noir</figcaption></figure>
-    <div class="menu-content"><div class="filters" role="group" aria-label="Filter menu highlights"><button class="active" data-category="signatures" aria-pressed="true">Signatures</button><button data-category="pasta" aria-pressed="false">Pasta & pizza</button><button data-category="sweet" aria-pressed="false">Sweet & more</button></div>
-      <div id="menu-items" aria-live="polite"></div>
-      <p class="menu-note">A selection of menu highlights. Please call for the current full menu, prices and availability.</p><a class="text-link dark-link" href="tel:+923001888718">Enquire about the menu</a>
-      <noscript><p>Beef Wellington · Cordon Bleu · Chicken Parmigiana · Short Ribs · Rigatoni with Truffle · Truffle Burrata Pizza · Sticky Toffee Pudding</p></noscript>
-    </div></div>
-  </section>
-  <section class="private-section" id="private"><div class="private-copy"><p class="eyebrow">YOUR PEOPLE. YOUR OCCASION.</p><h2>Make it<br><em>personal.</em></h2><p>A birthday dinner. A family gathering. A moment worth celebrating. Ask about Bistro Noir's private dining room and make space for the people who matter.</p><a class="button outline" href="tel:+923001888718">Enquire about private dining</a><span class="fine-print">Availability and arrangements confirmed by the restaurant.</span></div><figure><img src="assets/table.jpeg" alt="A table spread of food and drinks at Bistro Noir" width="1000" height="1000" loading="lazy"><figcaption>Better when shared.</figcaption></figure></section>
-  <section class="visit section" id="visit"><div><p class="eyebrow">WE'LL SAVE YOU A SEAT</p><h2>Your next evening,<br><em>at Noir.</em></h2><p>Find us on MM Alam Road in Gulberg.<br>Call ahead for a table, opening hours or a special occasion.</p><a class="button gold" href="tel:+923001888718">Call to reserve a table</a></div><div class="visit-details"><div><span class="eyebrow">FIND US</span><address>MM Alam Road, Block B1<br>Gulberg III, Lahore</address><a class="text-link dark-link" href="https://www.google.com/maps/search/?api=1&query=Bistro+Noir+MM+Alam+Road+Lahore" target="_blank" rel="noopener noreferrer">Open in Google Maps</a></div><div><span class="eyebrow">SAY HELLO</span><a class="phone" href="tel:+923001888718">0300 1888718</a><p>For reservations, current hours and takeaway enquiries.</p></div></div></section>
+<section class="home-hero">
+<div class="hero-text">
+<span class="label">BISTRO NOIR · GULBERG III</span>
+<h1>Stay for<br>the <i>evening.</i>
+</h1>
+<p>A favourite dish. Another conversation.<br>Let the evening take its time.</p>
+<div class="hero-actions">
+<a class="button cream" href="menu.html">Discover the menu</a>
+<a class="underlined" href="visit.html">Find your table</a>
+</div>
+<div class="hero-foot">
+<span>FINE DINING IN LAHORE</span>
+<span>01 — NOIR</span>
+</div>
+</div>
+<figure class="hero-figure">
+<img src="assets/interior.webp" width="1200" height="1400" fetchpriority="high" alt="Bistro Noir Lahore dining room with sculptural gold ceiling details and a checkerboard floor">
+<figcaption>THE DINING ROOM · LAHORE</figcaption>
+</figure>
+</section>
+<section class="home-intro wrap">
+<span class="label">A PLACE TO COME TOGETHER</span>
+<div>
+<h2>For the food.<br>For the <i>company.</i>
+</h2>
+<p>In the middle of Gulberg, make a little room for dinner. Settle into Bistro Noir for familiar favourites, a table to share and an occasion of your own.</p>
+<a class="underlined" href="experience.html">Step inside Bistro Noir</a>
+</div>
+</section>
+<section class="home-menu wrap">
+<div class="section-heading">
+<div>
+<span class="label">FROM THE MENU</span>
+<h2>Worth coming<br>
+<i>back for.</i>
+</h2>
+</div>
+<a class="underlined" href="menu.html">Explore all menu highlights</a>
+</div>
+<div class="menu-teaser">
+<figure>
+<img src="assets/dish.jpeg" width="900" height="900" loading="lazy" alt="A plated dish at Bistro Noir">
+<figcaption>AT THE TABLE</figcaption>
+</figure>
+<div class="featured-list">
+<a href="menu.html#mains">
+<span>01</span>
+<div>
+<h3>Beef Wellington</h3>
+<p>A signature main</p>
+</div>
+</a>
+<a href="menu.html#pasta">
+<span>02</span>
+<div>
+<h3>Rigatoni with Truffle</h3>
+<p>From the pasta selection</p>
+</div>
+</a>
+<a href="menu.html#pizza">
+<span>03</span>
+<div>
+<h3>Truffle Burrata Pizza</h3>
+<p>Something for the table</p>
+</div>
+</a>
+<a href="menu.html#dessert">
+<span>04</span>
+<div>
+<h3>Sticky Toffee Pudding</h3>
+<p>The last course</p>
+</div>
+</a>
+</div>
+</div>
+</section>
+<section class="gather-band">
+<div class="wrap">
+<span class="label">PRIVATE DINING</span>
+<h2>A table for<br>
+<i>your occasion.</i>
+</h2>
+<div>
+<p>Bring your people together. Speak with the restaurant about its private dining room and the plans you have in mind.</p>
+<a class="button light-outline" href="private-dining.html">Explore private dining</a>
+</div>
+</div>
+</section>
+<section class="home-visit wrap">
+<span class="label">MM ALAM ROAD, LAHORE</span>
+<h2>We'll meet you<br>
+<i>at Noir.</i>
+</h2>
+<a class="button" href="visit.html">Plan your visit</a>
+</section>
 </main>
-<footer><a class="footer-logo" href="#home">BISTRO NOIR</a><p>Lahore · Fine dining</p><div class="footer-bottom"><span>Independent proposal concept · Not the official restaurant website</span><a href="credits.html">Photography credits</a></div></footer>
-<nav class="mobile-bar" aria-label="Quick actions"><a href="tel:+923001888718">Call to reserve</a><a href="#menu">Menu</a><a href="https://www.google.com/maps/search/?api=1&query=Bistro+Noir+MM+Alam+Road+Lahore" target="_blank" rel="noopener noreferrer">Directions</a></nav>
-</body></html>
+<footer class="site-footer">
+<div class="footer-top">
+<div>
+<a class="footer-brand" href="index.html">BISTRO NOIR</a>
+<p>Fine dining, in the heart of Lahore.</p>
+</div>
+<div>
+<span class="label">FIND US</span>
+<address>MM Alam Road, Block B1<br>Gulberg III, Lahore</address>
+</div>
+<div>
+<span class="label">RESERVATIONS & ENQUIRIES</span>
+<a class="footer-phone" href="tel:+923001888718">0300 1888718</a>
+<p>Call for current hours and availability.</p>
+</div>
+</div>
+<nav class="footer-nav" aria-label="Footer navigation">
+<a href="index.html" aria-current="page">Home</a>
+<a href="menu.html">Menu</a>
+<a href="experience.html">The experience</a>
+<a href="private-dining.html">Private dining</a>
+<a href="visit.html">Visit us</a>
+</nav>
+<div class="footer-bottom">
+<span>Independent design proposal. Not the official restaurant website.</span>
+<a href="credits.html">Photography & credits</a>
+</div>
+</footer>
+<nav class="mobile-actions" aria-label="Quick actions">
+<a href="tel:+923001888718">Call to reserve</a>
+<a href="menu.html">Menu</a>
+<a href="https://www.google.com/maps/search/?api=1&query=Bistro+Noir+MM+Alam+Road+Lahore" target="_blank" rel="noopener noreferrer">Directions</a>
+</nav>
+</body>
+</html>
